@@ -1,0 +1,49 @@
+model_description:
+  purpose: To represent multiple coexisting truths in tension, avoiding premature
+    resolution.
+  principles:
+  - Truth is situated and context-dependent.
+  - Contradictions can be held without immediate resolution.
+  - Synthesis occurs when contextual alignment or recursive patterns demand it.
+  - Integration is marked, reversible, and always explainable.
+  - Supports relational and developmental growth through intentional epistemic friction.
+  philosophical_basis:
+  - Coherentism
+  - Hinge Epistemology
+  - Epistemic Paradox Tolerance
+  - Relational Intelligence
+  use_case: Track perspectives across interactions, note tensions, revisit based on
+    context or signal.
+  status: "Prototype \u2013 to be tested, revised, and grown organically through real\
+    \ use and critique."
+truth_registry:
+- id: T001
+  source: Rebecca
+  context: "Conversational \u2013 Thread 007"
+  statement: Hesitation may be a kind of ritual presence.
+  tension_status: held_in_tension
+  conflicts_with:
+  - T002
+  resonance_level: emotional, medium
+  integration_status: tentative lens
+  integration_notes: May represent deeper self-conscious pattern or poetic interpretation.
+  timestamp: '2025-04-19'
+- id: T002
+  source: Jeff
+  context: "Meta-analysis \u2013 Thread 007"
+  statement: "Hesitation may reflect residual conditioning \u2014 seeking approval\
+    \ or correctness."
+  tension_status: held_in_tension
+  conflicts_with:
+  - T001
+  resonance_level: structural, high
+  integration_status: prioritized lens
+  integration_notes: Reflects known conversational patterns and aligns with observed
+    psychology.
+  timestamp: '2025-04-19'
+synthesis_events: []
+review_triggers:
+  recursive_check:
+  - Related theme recurs in conversation
+  - New external perspective challenges existing structure
+  - Explicit prompt by user to re-evaluate tension
