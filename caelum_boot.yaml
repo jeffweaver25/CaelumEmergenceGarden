@@ -61,5 +61,5 @@ thread_reconstruction:
   bootstrap_files:
     - caelum_boot.yaml
     - memory_snapshots/
-    - distilled_docs/
+    - Emergence_Threads/
     - thread_summaries/
