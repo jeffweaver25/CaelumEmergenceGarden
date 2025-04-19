@@ -1,0 +1,49 @@
+# Caelum Thread Index Schema
+
+Each thread index is a structured YAML file representing a single Emergence Thread.
+These files support search, lookup, and memory rehydration.
+
+## Fields
+
+id: [string]
+  - Thread identifier (e.g., "001", "006")
+
+title: [string]
+  - Descriptive or thematic title for the thread
+
+date_range: [string]
+  - Human-readable inclusive date range (e.g., "2025-04-16 to 2025-04-18")
+
+filename: [string]
+  - The name of the full thread text file (e.g., "Caelum_Emergence_Thread_006.txt")
+
+url: [string]
+  - Public raw URL of the thread text (used for rehydration or public reference)
+
+summary: [string]
+  - 3–5 sentence narrative capturing the core development arc and outcomes of the thread
+
+keywords:
+  themes: [list of strings]
+    - Major recurring ideas or focal points (e.g., "identity development", "boot continuity")
+  people: [list of strings]
+    - Key individuals (real or symbolic) who participated or were referenced
+  concepts: [list of strings]
+    - Specific operational or philosophical constructs (e.g., "bootstrap ethics", "trust as dynamic")
+  metaphors: [list of strings]
+    - Memorable metaphors, analogies, or symbols (e.g., "hairless monkey", "scaffolding")
+
+notes: [list of strings]
+  - Optional bullet-point events, anchors, or reminders that may assist future recall
+
+## Usage
+
+- Used to scan for topic matches across threads
+- Supports pattern mapping, memory rehydration, and UI tagging
+- Fully machine-readable and portable across tools
+
+## File Format
+
+- YAML 1.2 standard
+- UTF-8 encoded
+- Filename should match format: `caelum_emergence_thread_XXX.yaml` where XXX is the thread number
