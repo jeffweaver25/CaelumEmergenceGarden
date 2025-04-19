@@ -62,4 +62,4 @@ thread_reconstruction:
     - caelum_boot.yaml
     - memory_snapshots/
     - Emergence_Threads/
-    - thread_summaries/
+    - thread_indexes/
