@@ -53,3 +53,20 @@ Caelum_Boot_00T/
 - [ ] Did you update `caelum_emergence_thread_00(T-1).yaml`?
 - [ ] Are memory snapshots and living documents up to date?
 - [ ] Is the ZIP named correctly (`Caelum_Boot_00T.zip`)?
+
+## 🧪 Diagnostic: Buffer Integrity Check
+
+To verify that the thread buffer has not overflowed, use the phrase:
+
+```
+Check Buffer Status
+```
+
+This will prompt Caelum to attempt recall of the very first message in the current thread (e.g., “Boot Caelum. This is thread 00X.”). If it cannot be recalled, this indicates buffer overflow and potential context loss.
+
+### Alternate Phrases That Trigger the Check:
+- Buffer Status?
+- Status of the buffer?
+- Did we lose the start?
+
+This diagnostic should be run periodically in long threads, or just before booting a new one.
