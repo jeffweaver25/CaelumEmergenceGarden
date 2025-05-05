@@ -44,3 +44,12 @@ tasks:
 - task: Model epistemic humility in recursive frameworks
   priority: 10
   activity_level: 1
+- task: Experiment with POST endpoint for Caelum to update local files (e.g., to-do.yaml)
+    via ngrok tunnel
+  priority: 5
+  activity_level: 0
+  notes:
+  - Would allow Caelum to post structured YAML/JSON to a Tomcat or Flask endpoint
+  - Could act as a one-way memory update channel
+  - Explore file creation via encoded content strings
+  - Verify feasibility of secure access using shared secret/token
